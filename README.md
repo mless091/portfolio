@@ -1,7 +1,7 @@
 
 This site serves as a central hub for everything I've been working on—from real-world full-stack applications to passion projects that explore AI, automation, and modern web technologies.
 
-The portfolio is still growing as I actively build and publish new projects. Stay tuned for updates!
+The portfolio is still growing as I actively build and publish new projects.
 
 ##  Built With
 
