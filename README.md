@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+This site serves as a central hub for everything I've been working on—from real-world full-stack applications to passion projects that explore AI, automation, and modern web technologies.
 
-First, run the development server:
+The portfolio is still growing as I actively build and publish new projects. Stay tuned for updates!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **TypeScript**: For added safety and developer experience
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Clean, dark-themed minimalist layout
+- Fully responsive design
+- Sidebar with contact info and short bio
+- Grid-based project showcase
+- Easily extendable for blog posts or additional sections
 
-## Learn More
+##  Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+You can view the live site here:  
+[https://portfolio-michael-less-projects.vercel.app/](https://portfolio-michael-less-projects.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  Coming Soon
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I'm actively working on several projects that will be featured here soon:
+- A real-time messaging app with authentication and socket support
+- A movie recommendation and aggregation system
+- A kanban-style project management board
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
