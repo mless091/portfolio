@@ -16,7 +16,7 @@ The portfolio is still growing as I actively build and publish new projects. Sta
 - Fully responsive design
 - Sidebar with contact info and short bio
 - Grid-based project showcase
-- Easily extendable for blog posts or additional sections
+- Easily extendable for additional sections
 
 ##  Live Demo
 
