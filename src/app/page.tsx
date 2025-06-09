@@ -13,12 +13,14 @@ export default function Home() {
       <div className="w-2/3 bg-zinc-800 p-6 overflow-y-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <ProjectTile
-            title="Project 1"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
+            title="Messaging App"
+            description="A full-stack real-time messaging app with authentication and user-to-user messaging."
+            imageUrl="/messaging_app_sc.png"
+            githubUrl="https://github.com/mless091/messaging_app"
+            demoUrl="https://messaging-app-michael-less-projects.vercel.app/"
+            tags={["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"]}
           />
+
 
           <ProjectTile
             title="Project 2"
@@ -27,70 +29,8 @@ export default function Home() {
             githubUrl="https://github.com/mless091/chatbot-ai"
             tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
           />
-<ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          <ProjectTile
-            title="Project 2"
-            description="Description"
-            imageUrl="/project2.png"
-            githubUrl="https://github.com/mless091/chatbot-ai"
-            tags={["React", "TypeScript", "OpenAI", "ChatGPT"]}
-          />
-          
+
+
         </div>
       </div>
     </main>

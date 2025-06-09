@@ -1,10 +1,10 @@
-// app/components/ProjectTile.tsx
 type ProjectTileProps = {
   title: string;
   description: string;
   imageUrl: string;
   githubUrl: string;
-  tags?: string[]; // Optional tags array
+  demoUrl?: string;
+  tags?: string[];
 };
 
 export default function ProjectTile({
@@ -12,6 +12,7 @@ export default function ProjectTile({
   description,
   imageUrl,
   githubUrl,
+  demoUrl,
   tags = [],
 }: ProjectTileProps) {
   return (
@@ -25,7 +26,7 @@ export default function ProjectTile({
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-zinc-600 text-xs text-white px-2 py-1 rounded-full"
+              className="bg-zinc-800 text-xs text-white px-2 py-1 rounded-full border border-zinc-700"
             >
               {tag}
             </span>
@@ -33,14 +34,26 @@ export default function ProjectTile({
         </div>
       )}
 
-      <a
-        href={githubUrl}
-        className="text-blue-400 hover:underline text-sm"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View on GitHub →
-      </a>
+      <div className="flex gap-4 mt-2">
+        {demoUrl && (
+          <a
+            href={demoUrl}
+            className="text-green-400 hover:underline text-sm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
+          </a>
+        )}
+        <a
+          href={githubUrl}
+          className="text-blue-400 hover:underline text-sm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub
+        </a>
+      </div>
     </div>
   );
 }
