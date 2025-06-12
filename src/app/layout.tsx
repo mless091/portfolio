@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Michael Less Portfolio",
   description: "Projects by Michael Less",
+  icons: {
+    icon: "/favicon.ico", // can also use .png or .svg
+  }
 };
 
 export default function RootLayout({
