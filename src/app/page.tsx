@@ -19,11 +19,11 @@ const projects = [
     tags: ["React", "Electron", "TypeScript", "NodeJS", "SQLite"],
   },
   {
-    title: "WIP - Movie Recommender",
-    description: "A site with the goal of being able to search through a library of movies, get recommendations, etc. and once finding one, be linked directly to the streaming service that currently has it.",
+    title: "WIP - Collaborative Knowledge Graph",
+    description: "A web-based collaborative knowledge graph platform that allows users to create, edit, and visualize interconnected ideas in real-time. Each node represents a concept or note, and users can define typed relationships between them to build structured knowledge maps.",
     imageUrl: "/movie_recommender_sc.png",
-    githubUrl: "https://github.com/mless091/movie-recommender",
-    tags: ["React", "Electron", "TypeScript", "NodeJS", "SQLite"],
+    githubUrl: "https://github.com/mless091/Collaborative-Knowledge-Graph/tree/main",
+    tags: ["Next.js", "TypeScript", "TailWindCSS", "Next.js API Routes", "PostgreSQL"],
   },
 ];
 
