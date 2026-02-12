@@ -3,12 +3,12 @@ import ProjectTile from "./components/ProjectTile";
 
 const projects = [
   {
-    title: "Messaging App",
-    description: "A full-stack real-time messaging app with authentication and user-to-user messaging.",
-    imageUrl: "/messaging_app_sc.png",
-    githubUrl: "https://github.com/mless091/messaging_app",
-    demoUrl: "https://messaging-app-michael-less-projects.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"],
+    title: "CareerOS",
+    description: "A comprehensive AI career platform. Features a Kanban-style application tracker, an AI Resume Architect that tailors resumes to specific job descriptions, and an interactive Interview Coach with STAR-method answer generation.",
+    imageUrl: "/dashboard-preview.png",
+    githubUrl: "https://github.com/mless091/career-os",
+    demoUrl: "https://careeros-ai.vercel.app/dashboard",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL", "Gemini AI"],
   },
   {
     title: "Class Scheduler - Senior Project",
@@ -19,11 +19,12 @@ const projects = [
     tags: ["React", "Electron", "TypeScript", "NodeJS", "SQLite"],
   },
   {
-    title: "WIP - Collaborative Knowledge Graph",
-    description: "A web-based collaborative knowledge graph platform that allows users to create, edit, and visualize interconnected ideas in real-time. Each node represents a concept or note, and users can define typed relationships between them to build structured knowledge maps.",
-    imageUrl: "/movie_recommender_sc.png",
-    githubUrl: "https://github.com/mless091/Collaborative-Knowledge-Graph/tree/main",
-    tags: ["Next.js", "TypeScript", "TailWindCSS", "Next.js API Routes", "PostgreSQL"],
+   title: "Messaging App",
+    description: "A full-stack real-time messaging app with authentication and user-to-user messaging.",
+    imageUrl: "/messaging_app_sc.png",
+    githubUrl: "https://github.com/mless091/messaging_app",
+    demoUrl: "https://messaging-app-michael-less-projects.vercel.app/",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"],
   },
 ];
 
