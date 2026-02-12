@@ -7,7 +7,7 @@ const projects = [
     description: "A comprehensive AI career platform. Features a Kanban-style application tracker, an AI Resume Architect that tailors resumes to specific job descriptions, and an interactive Interview Coach with STAR-method answer generation.",
     imageUrl: "/dashboard-preview.png",
     githubUrl: "https://github.com/mless091/career-os",
-    demoUrl: "https://careeros-ai.vercel.app/dashboard",
+    demoUrl: "https://careeros-ai.vercel.app/",
     tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL", "Gemini AI"],
   },
   {
