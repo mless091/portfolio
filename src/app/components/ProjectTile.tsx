@@ -1,3 +1,5 @@
+import React from "react";
+
 type ProjectTileProps = {
   title: string;
   description: string;
@@ -16,47 +18,55 @@ export default function ProjectTile({
   tags = [],
 }: ProjectTileProps) {
   return (
-    <div className="break-inside-avoid mb-6">
-      <div className="bg-zinc-700 p-4 rounded-lg shadow-md hover:bg-zinc-600 transition">
-        <img
+    <div className="group relative flex flex-col h-full bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-2xl overflow-hidden hover:border-slate-600 hover:shadow-xl hover:shadow-blue-900/10 transition-all duration-300">
+      {/* Image Container with Zoom Effect */}
+      <div className="w-full h-48 overflow-hidden relative border-b border-slate-800">
+         <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors z-10" />
+         <img
           src={imageUrl}
           alt={`${title} screenshot`}
-          className="rounded mb-3 w-full h-auto"
+          className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
         />
-        <h3 className="text-lg font-bold mb-1">{title}</h3>
-        <p className="text-sm text-zinc-300 mb-2">{description}</p>
+      </div>
 
-        {tags.length > 0 && (
-          <div className="flex flex-wrap gap-2 mb-2">
-            {tags.map((tag, index) => (
-              <span
-                key={index}
-                className="bg-zinc-800 text-xs text-white px-2 py-1 rounded-full border border-zinc-700"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
+      <div className="p-6 flex flex-col flex-grow">
+        <div className="flex justify-between items-start mb-3">
+             <h3 className="text-xl font-bold text-slate-100 group-hover:text-blue-400 transition-colors">{title}</h3>
+        </div>
+        
+        <p className="text-sm text-slate-400 mb-6 leading-relaxed flex-grow">{description}</p>
 
-        <div className="flex gap-4 mt-2">
+        {/* Tags */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          {tags.map((tag, index) => (
+            <span
+              key={index}
+              className="text-xs font-medium text-slate-300 bg-slate-800/80 px-2.5 py-1 rounded-full border border-slate-700"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+
+        {/* Links */}
+        <div className="flex items-center gap-4 pt-4 border-t border-slate-800 mt-auto">
           {demoUrl && (
             <a
               href={demoUrl}
-              className="text-green-400 hover:underline text-sm"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-sm font-semibold text-white bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-lg transition-colors shadow-lg shadow-blue-900/20"
             >
-              Link
+              Live Demo
             </a>
           )}
           <a
             href={githubUrl}
-            className="text-blue-400 hover:underline text-sm"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
           >
-            View on GitHub
+            View Code
           </a>
         </div>
       </div>
